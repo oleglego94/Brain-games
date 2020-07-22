@@ -51,6 +51,14 @@ python-versions = "*"
 version = "0.6.1"
 
 [[package]]
+category = "main"
+description = "Library for prompting input on the command line."
+name = "prompt"
+optional = false
+python-versions = ">=3.3"
+version = "0.4.1"
+
+[[package]]
 category = "dev"
 description = "python code static checker"
 name = "pylint"
@@ -90,7 +98,7 @@ python-versions = "*"
 version = "1.12.1"
 
 [metadata]
-content-hash = "9358fc14792bfdb4581ff96247b048e360237f8e2685aa99157fab89b715bc3f"
+content-hash = "e4d3ed647082916034610a551c2af52353549c0a2e6840aac8ddbe20594e52dc"
 python-versions = "^3.8"
 
 [metadata.files]
@@ -132,6 +140,10 @@ lazy-object-proxy = [
 mccabe = [
     {file = "mccabe-0.6.1-py2.py3-none-any.whl", hash = "sha256:ab8a6258860da4b6677da4bd2fe5dc2c659cff31b3ee4f7f5d64e79735b80d42"},
     {file = "mccabe-0.6.1.tar.gz", hash = "sha256:dd8d182285a0fe56bace7f45b5e7d1a6ebcbf524e8f3bd87eb0f125271b8831f"},
+]
+prompt = [
+    {file = "prompt-0.4.1-py3-none-any.whl", hash = "sha256:98527de8dc3f0aa29669a39fbffeaf578ba6654dc836f737b6a5c6f9279002b7"},
+    {file = "prompt-0.4.1.tar.gz", hash = "sha256:8a7694b88f8c65188a983315e72582bf42fcc251b97042be1d2a2ad1aa0ebe0e"},
 ]
 pylint = [
     {file = "pylint-2.5.3-py3-none-any.whl", hash = "sha256:d0ece7d223fe422088b0e8f13fa0a1e8eb745ebffcb8ed53d3e95394b6101a1c"},
