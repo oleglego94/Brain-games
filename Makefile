@@ -1,6 +1,4 @@
 install:
-		@poetry install
-lint:
-		@poetry run flake8 brain_games
+	@poetry install
 
-.PHONY:	install test lint selfcheck check build
+.PHONY:	install
