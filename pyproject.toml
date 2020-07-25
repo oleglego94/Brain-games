@@ -2,13 +2,13 @@
 name = "oleglego94_brain_games"
 version = "0.2.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Oleg Gahverdiev <olegik94b@gmail.com>"]
 packages = [
   { include = "brain_games" },
 ]
 
 [tool.poetry.dependencies]
-python = "^3.5"
+python = "^3.6"
 prompt = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
