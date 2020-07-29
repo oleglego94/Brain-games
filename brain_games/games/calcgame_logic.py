@@ -1,4 +1,4 @@
-"""Logic of game: even check"""
+"""Logic of game: calculator"""
 
 
 import random
@@ -7,26 +7,22 @@ from brain_games.cli import welcome_user
 
 
 def play_game():
-    start_msg = 'Answer "yes" if number even, otherwise answer "no".\n'
+    start_msg = 'What is the result of the expression?\n'
     print(start_msg)
     name = welcome_user()
     i = 0
     while i != 3:
-        question = random.randint(1, 101)
-        even = question % 2 == 0
-        odd = question % 2 != 0
+        int1 = str(random.randint(0, 100))
+        int2 = str(random.randint(0, 100))
+        operator = random.choice('+-*')
+        question = f"{int1} {operator} {int2}"
         print(f"Question: {question}")
         answer = prompt.string("Your answer: ")
-        opt1 = even and answer == "yes"
-        opt2 = odd and answer == "no"
-        if opt1 or opt2:
+        correct_answer = str(eval(question))
+        if answer == correct_answer:
             print("Correct!\n")
             i += 1
         else:
-            if even:
-                correct_answer = 'yes'
-            else:
-                correct_answer = 'no'
             end_msg = f"""
 '{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.
 Let's try again, {name}!"""

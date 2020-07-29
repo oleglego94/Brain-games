@@ -1,13 +1,13 @@
-"""Start script for game: even check"""
+"""Start script for game: calculator"""
 
 
 from brain_games.scripts import brain_games
-from brain_games.games import evengame_logic
+from brain_games.games import calcgame_logic
 
 
 def main():
     brain_games.main()
-    evengame_logic.play_game()
+    calcgame_logic.play_game()
 
 
 if __name__ == '__main__':
