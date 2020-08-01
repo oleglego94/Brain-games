@@ -2,12 +2,12 @@
 
 
 from brain_games.scripts import brain_games
-from brain_games.games import evengame_logic
+from brain_games.games import even_logic
 
 
 def main():
     brain_games.main()
-    evengame_logic.play_game()
+    even_logic.play_game()
 
 
 if __name__ == '__main__':

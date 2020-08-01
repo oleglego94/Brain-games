@@ -15,3 +15,7 @@
 # how to install and run 'brain-calc game'
 
 [![asciicast](https://asciinema.org/a/aof2gJi9pAfjSweX5mjiFKvWk.svg)](https://asciinema.org/a/aof2gJi9pAfjSweX5mjiFKvWk)
+
+# how to install and run 'brain-gcd game'
+
+[![asciicast](https://asciinema.org/a/Ge1MJNSnOehEw8Fnkc8hTOxWu.svg)](https://asciinema.org/a/Ge1MJNSnOehEw8Fnkc8hTOxWu)
