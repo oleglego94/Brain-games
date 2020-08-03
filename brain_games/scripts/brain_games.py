@@ -1,4 +1,4 @@
-"""Start script for brain-games"""
+"""Run script for brain-games"""
 
 
 def main():

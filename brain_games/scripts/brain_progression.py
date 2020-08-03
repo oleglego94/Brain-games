@@ -1,4 +1,4 @@
-"""Start script for game: arithmetical progression """
+"""Run script for game: arithmetical progression """
 
 
 from brain_games.scripts import brain_games

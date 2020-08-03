@@ -1,4 +1,4 @@
-"""Start script for game: greatest common divisor"""
+"""Run script for game: greatest common divisor"""
 
 
 from brain_games.scripts import brain_games

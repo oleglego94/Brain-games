@@ -1,4 +1,4 @@
-"""Start script for game: even check"""
+"""Run script for game: even check"""
 
 
 from brain_games.scripts import brain_games

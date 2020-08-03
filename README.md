@@ -23,3 +23,7 @@
 # how to install and run 'brain-progression'
 
 [![asciicast](https://asciinema.org/a/kxHMe6RoMSdgMfwu8jbJv5YE0.svg)](https://asciinema.org/a/kxHMe6RoMSdgMfwu8jbJv5YE0)
+
+# how to install and run 'brain-prime'
+
+[![asciicast](https://asciinema.org/a/ScX9yaI9HwvH8KUJbFlgVWcpX.svg)](https://asciinema.org/a/ScX9yaI9HwvH8KUJbFlgVWcpX)

@@ -1,13 +1,13 @@
-"""Run script for game: calculator"""
+"""Run script for game: prime check"""
 
 
 from brain_games.scripts import brain_games
-from brain_games.games import calc_logic
+from brain_games.games import prime_logic
 
 
 def main():
     brain_games.main()
-    calc_logic.play_game()
+    prime_logic.play_game()
 
 
 if __name__ == '__main__':
