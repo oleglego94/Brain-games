@@ -14,7 +14,7 @@ def play_game():
     while i != 3:
         int1 = str(random.randint(0, 100))
         int2 = str(random.randint(0, 100))
-        operator = random.choice('+-*')
+        operator = random.choice('*+-')
         question = f"{int1} {operator} {int2}"
         print(f"Question: {question}")
         answer = prompt.string("Your answer: ")

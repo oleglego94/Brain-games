@@ -19,3 +19,7 @@
 # how to install and run 'brain-gcd game'
 
 [![asciicast](https://asciinema.org/a/Ge1MJNSnOehEw8Fnkc8hTOxWu.svg)](https://asciinema.org/a/Ge1MJNSnOehEw8Fnkc8hTOxWu)
+
+# how to install and run 'brain-progression'
+
+[![asciicast](https://asciinema.org/a/kxHMe6RoMSdgMfwu8jbJv5YE0.svg)](https://asciinema.org/a/kxHMe6RoMSdgMfwu8jbJv5YE0)
