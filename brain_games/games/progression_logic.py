@@ -6,9 +6,8 @@ import prompt
 from brain_games.cli import welcome_user
 
 
-
 def make_progression(start, step, miss):
-    progression = f''
+    progression = ''
     i = 1
     while i < miss:
         start += step
