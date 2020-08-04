@@ -10,20 +10,20 @@
 
 # how to install and run 'brain-even game'
 
-[![asciicast](https://asciinema.org/a/ut7Erz6Uo7SnAcJ32NqiX2nd9.svg)](https://asciinema.org/a/ut7Erz6Uo7SnAcJ32NqiX2nd9)
+[![asciicast](https://asciinema.org/a/BzQ8aqnLfVgLKlqkk4W6CU3y3.svg)](https://asciinema.org/a/BzQ8aqnLfVgLKlqkk4W6CU3y3)
 
 # how to install and run 'brain-calc game'
 
-[![asciicast](https://asciinema.org/a/aof2gJi9pAfjSweX5mjiFKvWk.svg)](https://asciinema.org/a/aof2gJi9pAfjSweX5mjiFKvWk)
+[![asciicast](https://asciinema.org/a/O8vX2kmdkzdRqaXiHXsTYO13f.svg)](https://asciinema.org/a/O8vX2kmdkzdRqaXiHXsTYO13f)
 
 # how to install and run 'brain-gcd game'
 
-[![asciicast](https://asciinema.org/a/Ge1MJNSnOehEw8Fnkc8hTOxWu.svg)](https://asciinema.org/a/Ge1MJNSnOehEw8Fnkc8hTOxWu)
+[![asciicast](https://asciinema.org/a/6vBWMRq3Svr8IaHtiqtw7U4cm.svg)](https://asciinema.org/a/6vBWMRq3Svr8IaHtiqtw7U4cm)
 
 # how to install and run 'brain-progression'
 
-[![asciicast](https://asciinema.org/a/kxHMe6RoMSdgMfwu8jbJv5YE0.svg)](https://asciinema.org/a/kxHMe6RoMSdgMfwu8jbJv5YE0)
+[![asciicast](https://asciinema.org/a/m8hkE1WGuxjuhkm2eKM9PjZxU.svg)](https://asciinema.org/a/m8hkE1WGuxjuhkm2eKM9PjZxU)
 
 # how to install and run 'brain-prime'
 
-[![asciicast](https://asciinema.org/a/ScX9yaI9HwvH8KUJbFlgVWcpX.svg)](https://asciinema.org/a/ScX9yaI9HwvH8KUJbFlgVWcpX)
+[![asciicast](https://asciinema.org/a/ty9XZHickTh7c2fC1qbn6J3j6.svg)](https://asciinema.org/a/ty9XZHickTh7c2fC1qbn6J3j6)
