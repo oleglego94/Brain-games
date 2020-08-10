@@ -2,13 +2,11 @@
 """Run script for game: even check"""
 
 
-from brain_games.scripts import brain_games
 from brain_games.games import even_logic
 
 
 def main():
-    brain_games.main()
-    even_logic.play_game()
+    even_logic
 
 
 if __name__ == '__main__':

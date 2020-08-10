@@ -2,13 +2,11 @@
 """Run script for game: arithmetical progression """
 
 
-from brain_games.scripts import brain_games
 from brain_games.games import progression_logic
 
 
 def main():
-    brain_games.main()
-    progression_logic.play_game()
+    progression_logic
 
 
 if __name__ == '__main__':
