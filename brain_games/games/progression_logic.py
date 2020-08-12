@@ -1,7 +1,6 @@
 """Logic of game: arithmetical progression"""
 
 
-from brain_games.games import game_engine
 import random
 
 
@@ -28,7 +27,3 @@ def generate_qa():
     miss = random.randint(1, 10)
     question, answer = make_progression(start, step, miss)
     return (question, answer)
-
-
-start_msg = 'What number is missing in the progression?\n'
-game_engine.play_game(start_msg, generate_qa)
