@@ -3,12 +3,10 @@
 
 
 from brain_games.games import calc_logic
-from brain_games import game_engine
 
 
 def main():
-    start_msg = 'What is the result of the expression?\n'
-    game_engine.play_game(start_msg, calc_logic.generate_qa)
+    calc_logic.start_game()
 
 
 if __name__ == '__main__':

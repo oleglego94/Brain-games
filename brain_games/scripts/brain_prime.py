@@ -3,12 +3,10 @@
 
 
 from brain_games.games import prime_logic
-from brain_games import game_engine
 
 
 def main():
-    start_msg = 'Answer "yes" if given number is prime. Otherwise answer "no".\n'  # noqa: E501
-    game_engine.play_game(start_msg, prime_logic.generate_qa)
+    prime_logic.start_game()
 
 
 if __name__ == '__main__':

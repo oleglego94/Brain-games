@@ -2,6 +2,7 @@
 
 
 import random
+from brain_games import game_engine
 
 
 def find_gcd(num1, num2):
@@ -24,3 +25,9 @@ def generate_qa():
     question = f"{int1} {int2}"
     answer = find_gcd(int1, int2)
     return (question, answer)
+
+
+def start_game():
+    start_msg = 'Find the greatest common divisor of given numbers.\n'
+    the_game = game_engine.flow_the_game(start_msg, generate_qa)
+    return the_game
