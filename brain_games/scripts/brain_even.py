@@ -2,7 +2,8 @@
 """Run script for game: even check"""
 
 
-from brain_games.games import game_engine, even_logic
+from brain_games.games import even_logic
+from brain_games import game_engine
 
 
 def main():

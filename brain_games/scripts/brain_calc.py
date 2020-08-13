@@ -2,7 +2,8 @@
 """Run script for game: calculator"""
 
 
-from brain_games.games import game_engine, calc_logic
+from brain_games.games import calc_logic
+from brain_games import game_engine
 
 
 def main():

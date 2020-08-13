@@ -2,7 +2,8 @@
 """Run script for game: prime check"""
 
 
-from brain_games.games import game_engine, prime_logic
+from brain_games.games import prime_logic
+from brain_games import game_engine
 
 
 def main():

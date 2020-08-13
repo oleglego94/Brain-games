@@ -2,7 +2,8 @@
 """Run script for game: arithmetical progression """
 
 
-from brain_games.games import game_engine, progression_logic
+from brain_games.games import progression_logic
+from brain_games import game_engine
 
 
 def main():

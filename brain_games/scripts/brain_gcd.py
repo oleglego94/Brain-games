@@ -2,7 +2,8 @@
 """Run script for game: greatest common divisor"""
 
 
-from brain_games.games import game_engine, gcd_logic
+from brain_games.games import gcd_logic
+from brain_games import game_engine
 
 
 def main():
