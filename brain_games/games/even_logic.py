@@ -2,7 +2,9 @@
 
 
 import random
-from brain_games import game_engine
+
+
+START_MSG = 'Answer "yes" if number even, otherwise answer "no".\n'
 
 
 def is_even(num):
@@ -17,9 +19,3 @@ def generate_qa():
     else:
         answer = 'no'
     return (question, answer)
-
-
-def start_game():
-    start_msg = 'Answer "yes" if number even, otherwise answer "no".\n'
-    the_game = game_engine.flow_the_game(start_msg, generate_qa)
-    return the_game

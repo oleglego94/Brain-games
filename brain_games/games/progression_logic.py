@@ -2,7 +2,9 @@
 
 
 import random
-from brain_games import game_engine
+
+
+START_MSG = 'What number is missing in the progression?\n'
 
 
 def make_progression(start, step, miss):
@@ -29,9 +31,3 @@ def generate_qa():
     miss = random.randint(1, 10)
     question, answer = make_progression(start, step, miss)
     return (question, answer)
-
-
-def start_game():
-    start_msg = 'What number is missing in the progression?\n'
-    the_game = game_engine.flow_the_game(start_msg, generate_qa)
-    return the_game

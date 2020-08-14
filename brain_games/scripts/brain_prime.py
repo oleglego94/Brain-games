@@ -3,10 +3,11 @@
 
 
 from brain_games.games import prime_logic
+from brain_games import game_engine
 
 
 def main():
-    prime_logic.start_game()
+    game_engine.flow_the_game(prime_logic)
 
 
 if __name__ == '__main__':

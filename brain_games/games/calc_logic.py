@@ -3,7 +3,9 @@
 
 import random
 import operator
-from brain_games import game_engine
+
+
+START_MSG = 'What is the result of the expression?\n'
 
 
 def calculate(num1, num2, sign):
@@ -23,9 +25,3 @@ def generate_qa():
     question = f"{num1} {sign} {num2}"
     answer = calculate(num1, num2, sign)
     return (question, answer)
-
-
-def start_game():
-    start_msg = 'What is the result of the expression?\n'
-    the_game = game_engine.flow_the_game(start_msg, generate_qa)
-    return the_game

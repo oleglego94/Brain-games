@@ -3,10 +3,11 @@
 
 
 from brain_games.games import calc_logic
+from brain_games import game_engine
 
 
 def main():
-    calc_logic.start_game()
+    game_engine.flow_the_game(calc_logic)
 
 
 if __name__ == '__main__':

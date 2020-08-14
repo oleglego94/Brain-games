@@ -6,14 +6,14 @@ from brain_games.scripts import brain_games
 from brain_games.cli import welcome_user
 
 
-def flow_the_game(start_msg, generate_qa):
+def flow_the_game(logic_of_game):
     brain_games.main()
-    print(start_msg)
+    print(logic_of_game.START_MSG)
     name = welcome_user()
     number_of_questions = 3
     i = 0
     while i != number_of_questions:
-        question, answer = generate_qa()
+        question, answer = logic_of_game.generate_qa()
         print(f"Question: {question}")
         user_answer = prompt.string("Your answer: ")
         if user_answer == str(answer):
