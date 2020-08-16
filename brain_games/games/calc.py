@@ -5,7 +5,7 @@ import random
 import operator
 
 
-START_MSG = 'What is the result of the expression?\n'
+START_MSG = 'What is the result of the expression?'
 
 
 def calculate(num1, num2, sign):

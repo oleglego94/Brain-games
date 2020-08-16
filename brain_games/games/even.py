@@ -4,12 +4,13 @@
 import random
 
 
-START_MSG = 'Answer "yes" if number even, otherwise answer "no".\n'
+START_MSG = 'Answer "yes" if number even, otherwise answer "no".'
 
 
 def is_even(num):
     if num % 2 == 0:
         return True
+    return False
 
 
 def generate_qa():

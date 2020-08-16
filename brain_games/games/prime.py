@@ -4,17 +4,18 @@
 import random
 
 
-START_MSG = 'Answer "yes" if given number is prime. Otherwise answer "no".\n'
+START_MSG = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(num):
     if num <= 1:
         return False
     div = 2
-    while num % div != 0:
+    while div <= num / 2:
+        if num % div == 0:
+            return False
         div += 1
-    if div == num:
-        return True
+    return True
 
 
 def generate_qa():

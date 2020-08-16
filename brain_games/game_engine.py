@@ -3,17 +3,17 @@
 
 import prompt
 from brain_games.scripts import brain_games
-from brain_games.cli import welcome_user
 
 
-def flow_the_game(logic_of_game):
+def play(game):
     brain_games.main()
-    print(logic_of_game.START_MSG)
-    name = welcome_user()
+    print(f'{game.START_MSG}\n')
+    name = prompt.string('May I have your name? ')
+    print(f'Hello, {name}!\n')
     number_of_questions = 3
     i = 0
     while i != number_of_questions:
-        question, answer = logic_of_game.generate_qa()
+        question, answer = game.generate_qa()
         print(f"Question: {question}")
         user_answer = prompt.string("Your answer: ")
         if user_answer == str(answer):
@@ -24,6 +24,5 @@ def flow_the_game(logic_of_game):
 '{user_answer}' is wrong answer ;(. Correct answer was '{answer}'.
 Let's try again, {name}!"""
             print(end_msg)
-            break
-    if i == 3:
-        print(f"Congratulations, {name}!")
+            return
+    print(f"Congratulations, {name}!")

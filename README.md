@@ -6,7 +6,6 @@
 [![Build Status](https://travis-ci.org/oleglego94/python-project-lvl1.svg?branch=master)](https://travis-ci.org/oleglego94/python-project-lvl1)
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/3484037c18398fc39afc/maintainability)](https://codeclimate.com/github/oleglego94/python-project-lvl1/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/3484037c18398fc39afc/test_coverage)](https://codeclimate.com/github/oleglego94/python-project-lvl1/test_coverage)
 
 # how to install and run 'brain-even game'
 
@@ -20,10 +19,10 @@
 
 [![asciicast](https://asciinema.org/a/6vBWMRq3Svr8IaHtiqtw7U4cm.svg)](https://asciinema.org/a/6vBWMRq3Svr8IaHtiqtw7U4cm)
 
-# how to install and run 'brain-progression'
+# how to install and run 'brain-progression game'
 
 [![asciicast](https://asciinema.org/a/m8hkE1WGuxjuhkm2eKM9PjZxU.svg)](https://asciinema.org/a/m8hkE1WGuxjuhkm2eKM9PjZxU)
 
-# how to install and run 'brain-prime'
+# how to install and run 'brain-prime game'
 
 [![asciicast](https://asciinema.org/a/ty9XZHickTh7c2fC1qbn6J3j6.svg)](https://asciinema.org/a/ty9XZHickTh7c2fC1qbn6J3j6)

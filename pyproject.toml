@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "oleglego94_brain_games"
-version = "0.9.3"
+version = "0.9.5"
 description = "5 mini-games for your brain;)"
 classifiers = [
   "Programming Language :: Python :: 3 :: Only",
