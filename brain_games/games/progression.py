@@ -5,29 +5,29 @@ import random
 
 
 START_MSG = 'What number is missing in the progression?'
+SET_LENGTH = 10
 
 
-def make_set(start, step, miss):
-    set_of_numbers = ''
+def make_question(start, step, miss):
+    question = ''
     i = 1
-    set_length = 10
     while i < miss:
         elem = start + step * i
-        set_of_numbers += f'{elem} '
+        question += f'{elem} '
         i += 1
-    set_of_numbers += '.. '
+    question += '.. '
     i += 1
-    while i <= set_length:
+    while i <= SET_LENGTH:
         elem = start + step * i
-        set_of_numbers += f'{elem} '
+        question += f'{elem} '
         i += 1
-    return set_of_numbers
+    return question
 
 
 def generate_qa():
     start = random.randint(-100, 100)
     step = random.randint(1, 10)
-    miss = random.randint(1, 10)
-    question = make_set(start, step, miss)
+    miss = random.randint(1, SET_LENGTH)
+    question = make_question(start, step, miss)
     answer = start + step * miss
     return (question, answer)

@@ -5,14 +5,16 @@ import prompt
 from brain_games.scripts import brain_games
 
 
+NUMBER_OF_QUESTIONS = 3
+
+
 def play(game):
     brain_games.main()
     print(f'{game.START_MSG}\n')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!\n')
-    number_of_questions = 3
     i = 0
-    while i != number_of_questions:
+    while i != NUMBER_OF_QUESTIONS:
         question, answer = game.generate_qa()
         print(f"Question: {question}")
         user_answer = prompt.string("Your answer: ")

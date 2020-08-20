@@ -11,9 +11,9 @@ START_MSG = 'What is the result of the expression?'
 def calculate(num1, num2, sign):
     if sign == '+':
         result = operator.add(num1, num2)
-    if sign == '-':
+    elif sign == '-':
         result = operator.sub(num1, num2)
-    if sign == '*':
+    else:
         result = operator.mul(num1, num2)
     return result
 

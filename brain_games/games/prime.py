@@ -20,8 +20,5 @@ def is_prime(num):
 
 def generate_qa():
     question = random.randint(-100, 100)
-    if is_prime(question) is True:
-        answer = 'yes'
-    else:
-        answer = 'no'
+    answer = ('yes' if is_prime(question) is True else 'no')
     return (question, answer)
