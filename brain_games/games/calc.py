@@ -13,7 +13,7 @@ def calculate(num1, num2, sign):
         result = operator.add(num1, num2)
     elif sign == '-':
         result = operator.sub(num1, num2)
-    else:
+    elif sign == '*':
         result = operator.mul(num1, num2)
     return result
 

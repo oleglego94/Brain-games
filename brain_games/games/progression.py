@@ -21,7 +21,7 @@ def make_question(start, step, miss):
         elem = start + step * i
         question += f'{elem} '
         i += 1
-    return question
+    return question[:-1]
 
 
 def generate_qa():
