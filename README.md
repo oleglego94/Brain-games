@@ -1,5 +1,5 @@
 # python-project-lvl1
-## My [Hexlet](https://ru.hexlet.io/u/o_legleg_o)
+## My [Hexlet](https://ru.hexlet.io/u/o_legleg_o).
 
 [![Github Actions Status](https://github.com/oleglego94/python-project-lvl1/workflows/Python%20CI/badge.svg)](https://github.com/oleglego94/python-project-lvl1/actions)
 
